@@ -31,13 +31,5 @@ describe('testando o componente <Pokemon />: ', () => {
     expect(starFavorite).toHaveAttribute('src', '/star-icon.svg');
     expect(starFavorite).toBeInTheDocument();
   });
-
-  test('', () => {
-    
-  });
-
-  test('', () => {
-    
-  });
 });
 test('', () => {});
