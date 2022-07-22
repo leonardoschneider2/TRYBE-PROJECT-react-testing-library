@@ -36,7 +36,6 @@ class App extends Component {
   render() {
     const { isPokemonFavoriteById } = this.state;
     const favoritePokemons = pokemons.filter(({ id }) => isPokemonFavoriteById[id]);
-
     return (
       <div className="App">
         <h1>Pokédex</h1>
